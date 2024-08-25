@@ -1,0 +1,4 @@
+/target
+*.sw*
+*_result
+*_binary

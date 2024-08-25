@@ -1,0 +1,13 @@
+[package]
+name = "xorwowout"
+version = "0.1.0"
+edition = "2021"
+authors = ["El Kasztano"]
+description = "Test pseudorandom number generators from the Xorwowgen crate"
+license = "MIT"
+keywords = ["generator", "prng", "test"]
+categories = ["algorithms", "mathematics"]
+
+[dependencies]
+xorwowgen = { git = "https://github.com/elkasztano/xorwow", rev = "611c98a20b69f7ce4994b762ebbc6ae8c2c19e94" }
+rand_core = "0.6.4"
